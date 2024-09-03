@@ -1,6 +1,5 @@
 import getGame from '../index.js';
-import { getRandomNumber } from '../utils.js';
-import { isEvenNumber } from '../utils.js';
+import { getRandomNumber, isEvenNumber } from '../utils.js';
 
 const taskGame = 'Answer "yes" if the number is even, otherwise answer "no".';
 

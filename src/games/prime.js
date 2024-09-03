@@ -8,7 +8,7 @@ const isPrime = (number) => {
     return false; // Числа 0 и 1 не являются простыми
   }
 
-  for (let i = 2; i <= Math.sqrt(number); i++) {
+  for (let i = 2; i <= Math.sqrt(number); i += 1) {
     if (number % i === 0) {
       return false; // Если число делится на i, оно составное
     }
