@@ -8,7 +8,7 @@ const getGame = (taskGame, startGame) => {
 
   console.log(taskGame);
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 1; i < 4; i += 1) {
     const [answer, question] = startGame();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
